@@ -1,4 +1,4 @@
-if food_timer > 0 food_timer -= 1/60;
+if food_timer > 0 food_timer -= 1/global.game_speed;
 else if global.food < food_max {
 	var spawn_center_x = irandom(room_width);
 	var spawn_center_y = irandom(room_height);

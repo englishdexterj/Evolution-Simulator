@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"count_allele_pairs",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"count_allele_pairs",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

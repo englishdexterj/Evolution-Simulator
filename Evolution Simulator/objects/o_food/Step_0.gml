@@ -1,4 +1,4 @@
-decay -= 1/60;
+decay -= 1/global.game_speed;
 if decay <= 0 instance_destroy();
 image_alpha = min(decay/2, 1);
 
