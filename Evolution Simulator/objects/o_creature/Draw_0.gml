@@ -1,2 +1,2 @@
 draw_self();
-draw_circle(x, y, vision_range, true);
+//draw_circle(x, y, vision_range, true);
