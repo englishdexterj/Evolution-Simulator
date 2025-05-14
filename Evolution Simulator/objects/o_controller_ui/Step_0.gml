@@ -1,7 +1,3 @@
-if keyboard_check_pressed(ord("H")) {
-	histogram = -histogram + 1;
-}
-
 for (var i = 0; i < ds_list_size(buttons); i++) {
 	var _button = ds_list_find_value(buttons, i);
 	
@@ -10,7 +6,7 @@ for (var i = 0; i < ds_list_size(buttons); i++) {
 			_button.sprite_subimg = 1;
 		} else if mouse_check_button_released(mb_left) {
 			_button.sprite_subimg = 0;
-			show_debug_message("MEEP")
+			histogram = -histogram+1;
 		}
 	} else {
 		_button.sprite_subimg = 0;
